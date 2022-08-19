@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+</head>
+<body>
+    <center>
+        <h1>I AM A INDEX</h1>
+        <a th:href="@{/testRequestByServletAPI}">通过 testRequestByAPI 向 request 域共享数据</a><br>
+        <a th:href="@{/testModelAndView}">通过 ModelAndView 向 request 域共享数据</a><br>
+        <a th:href="@{/testModel}">通过 Model 向 request 域共享数据</a><br>
+        <a th:href="@{/testMap}">通过 Map 向 request 域共享数据</a><br>
+        <a th:href="@{/testModelMap}">通过 ModelMap 向 request 域共享数据</a><br>
+        <a th:href="@{/testSession}">通过 ServletAPI 向 session 域共享数据</a><br>
+        <a th:href="@{/testApplication}">通过 ServletAPI 向 application 域共享数据</a><br>
+
+    </center>
+</body>
+</html>

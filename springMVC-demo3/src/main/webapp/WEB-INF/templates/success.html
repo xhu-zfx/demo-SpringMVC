@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SUCCESS</title>
+</head>
+<body>
+<h1 style="text-align: center">Congratulations on your successful test<br>
+    Test Success !!!!
+    <P th:text="${testRequestScpoe}" style="color: chocolate"></P>
+    <P th:text="${session.testSessionScope}" style="color: chocolate"></P>
+    <P th:text="${application.testApplicationScope}" style="color: chocolate"></P>
+
+</h1>
+
+</body>
+</html>
